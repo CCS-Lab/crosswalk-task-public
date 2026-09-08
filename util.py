@@ -1,6 +1,3 @@
-import sys
-import os
-
 import numpy as np
 from pathlib import Path
 import json
@@ -11,7 +8,6 @@ def data_dir(subjId, web=False):
         current_file = Path(__file__).resolve()
         current_dir = current_file.parent
         prolific_id_dir = current_dir / "data" / "web" / str(subjId)
-        # prolific_id_dir = current_dir / "web" / "server" / "data" / str(subjId)
 
         study_ids = [p for p in prolific_id_dir.iterdir() if p.is_dir()]
         if len(study_ids) != 1:
