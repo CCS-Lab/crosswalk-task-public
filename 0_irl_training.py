@@ -235,7 +235,7 @@ def train_AIRL(
 if __name__ == "__main__":
     subjId = "" # TODO
     web=False
-    sub_dir="rewnet_8_8/" # the best models are moved to "rewnet_8_8_best/" after checking training results
+    sub_dir="rewnet_8_8_best/"
     ppo_n_steps=512
     train_AIRL(
         subjId=subjId,
