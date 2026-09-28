@@ -1,3 +1,6 @@
 __pycache__
 .DS_Store
+
 tb_logs
+data/full_traj_dict.npz
+**/rewards/*.npz
