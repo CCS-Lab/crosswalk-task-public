@@ -1,6 +1,11 @@
-__pycache__
 .DS_Store
+
+__pycache__
+
+.RData
+.Rhistory
 
 tb_logs
 data/full_traj_dict.npz
 **/rewards/*.npz
+**/*.rds
