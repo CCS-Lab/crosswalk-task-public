@@ -46,7 +46,7 @@ irl_risk_taking_indicator_labels <- c(
   "[IRL] High Risk but\nEmpty Last Road",
   "[IRL] Approaching\nCrosswalk in\nCurrent Road",
   "[IRL] Approaching\nNext Crosswalks",
-  "[IRL] Move Up\nToward Car"
+  "[IRL] Moving Up\nToward Car"
 )
 
 dependent_variable = "DOSPERT"
